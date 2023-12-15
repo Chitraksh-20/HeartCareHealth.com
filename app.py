@@ -27,9 +27,9 @@ def predict():
     features = pd.DataFrame(features , columns = ['Age' , 'Sex' , 'Chest Pain Type' , 'Resting Blood Pressure' , 'Serum Cholestrol' , 'Fasting Blood Sugar' , 'Resting Electrocardiographic Results' , 'Maximum Heart Rate Achieved' , 'Exercise Induced Angina' , 'ST Depression Induced by Exercise Relative to Rest' , 'The Slope of The Peak Exercise ST Segment' , 'Number of Major Vessels Colored by Flourosopy' , 'Thallium Stress Test'])
     prediction = model.predict(features)
     if(prediction == 1):
-        return render_template('index1.html', prediction_text = "You should consult a Cardiologist at the earliest.")
+        return render_template('emergency.html')
     else:
-        return render_template('index1.html', prediction_text = "You are Fit Health-wise")
+        return render_template('safe.html')
 
 
 if __name__ == "__main__":
