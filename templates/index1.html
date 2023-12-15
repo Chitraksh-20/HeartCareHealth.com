@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HealthCareHealth.com</title>
+  <link rel="stylesheet" href="/static/css/style2.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">
+    <h1>HealthCareHealth.com</h1>
+  </div>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="login">
+  <h2>Are you at Cardiovascular Risk?</h2>
+
+   <!-- Main Input For Receiving Query to our ML -->
+  <form action="{{ url_for('predict')}}" method="post">
+    <input type="text" name="Age" placeholder="Age" required="required" />
+    <input type="text" name="Sex" placeholder="Sex" required="required" />
+    <input type="text" name="Chest Pain Type" placeholder="Chest Pain Type" required="required" />
+    <input type="text" name="Resting Blood Pressure" placeholder="Resting Blood Pressure" required="required" />
+    <input type="text" name="Serum Cholestrol" placeholder="Serum Cholestrol" required="required" />
+    <input type="text" name="Fasting Blood Sugar" placeholder="Fasting Blood Sugar" required="required" />
+    <input type="text" name="Resting Electrocardiographic Results" placeholder="Resting Electrocardiographic Results" required="required" />
+    <input type="text" name="Maximum Heart Rate Achieved" placeholder="Maximum Heart Rate Achieved" required="required" />
+    <input type="text" name="Exercise Induced Angina" placeholder="Exercise Induced Angina" required="required" />
+    <input type="text" name="ST Depression Induced by Exercise Relative to Rest" placeholder="ST Depression Induced by Exercise Relative to Rest" required="required" />
+    <input type="text" name="The Slope of The Peak Exercise ST Segment" placeholder="The Slope of The Peak Exercise ST Segment" required="required" />
+    <input type="text" name="Number of Major Vessels Colored by Flourosopy" placeholder="Number of Major Vessels Colored by Flourosopy" required="required" />
+    <input type="text" name="Thallium Stress Test" placeholder="Thallium Stress Test" required="required" />
+
+    <button type="submit" class="myButton">PRIDICT</a>
+  </form>
+
+ <br>
+ <br>
+
+</div>
+{{ prediction_text }}
+
+<div>
+  
+  <button class="emergency-button">Emergency</button>
+</div>
+</body>
+</html>
