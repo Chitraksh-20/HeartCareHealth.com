@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #efd2c3;
+    background-color: #EFE1D1;
 }
 
 h2{
@@ -14,18 +14,13 @@ h2{
 }
 
 /* Style for the navbar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #caa791;
-    /* Change the color as needed */
-    padding: 15px 20px;
-    color: white;
-}
 
 h2{
     font-family: 'Times New Roman', Times, serif;
+}
+
+.color{
+    background-color: #A78295;
 }
 
 /* Style for the logo */
@@ -141,7 +136,6 @@ input {
     position:relative;
     top:1px;
 }
-    
 
 .myButton {
 	box-shadow: 0px 10px 14px -7px #276873;

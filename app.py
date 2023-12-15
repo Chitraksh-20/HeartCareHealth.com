@@ -20,12 +20,9 @@ def predict():
     
     params = ['Age' , 'Sex' , 'Chest Pain Type' , 'Resting Blood Pressure' , 'Serum Cholestrol' , 'Fasting Blood Sugar' , 'Resting Electrocardiographic Results' , 'Maximum Heart Rate Achieved' , 'Exercise Induced Angina' , 'ST Depression Induced by Exercise Relative to Rest' , 'The Slope of The Peak Exercise ST Segment' , 'Number of Major Vessels Colored by Flourosopy' , 'Thallium Stress Test']
     float_features = []
-    
     for param in params:
         float_features.append(float(request.form.get(param)))
         
-        
-    # float_features = [float(x) for x in request.form.values()]
     features = [np.array(float_features)]
     features = pd.DataFrame(features , columns = ['Age' , 'Sex' , 'Chest Pain Type' , 'Resting Blood Pressure' , 'Serum Cholestrol' , 'Fasting Blood Sugar' , 'Resting Electrocardiographic Results' , 'Maximum Heart Rate Achieved' , 'Exercise Induced Angina' , 'ST Depression Induced by Exercise Relative to Rest' , 'The Slope of The Peak Exercise ST Segment' , 'Number of Major Vessels Colored by Flourosopy' , 'Thallium Stress Test'])
     prediction = model.predict(features)
