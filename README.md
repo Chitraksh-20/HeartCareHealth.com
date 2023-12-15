@@ -11,7 +11,12 @@
 
 > This is a ML heart health pridiction app that uses ML models to classifie if a person can develop heart risk or not
 
+
 ### 🏠 [Homepage](app.py)
+
+
+https://github.com/AyushTripathiIITP/HeartCareHealth.com/assets/101452500/66de3c21-779e-4cd8-9e4d-dd34997f6be9
+
 
 ### ✨ [Demo](NA)
 
