@@ -12,6 +12,8 @@ df.columns = ['Age' , 'Sex' , 'Chest Pain Type' , 'Resting Blood Pressure' , 'Se
 X = df.drop('Output', axis=1)
 y = df['Output']
 
+
+
 model = RandomForestClassifier()
 
 model.fit(X , y)
