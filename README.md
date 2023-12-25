@@ -24,7 +24,7 @@ https://github.com/AyushTripathiIITP/HeartCareHealth.com/assets/101452500/66de3c
 
 👤 **Ayush Tripathi | Vardhan Gacche | Chitraksh Dhingra | Hardik Singh**
 
-* Github: [@Iush3party](https://github.com/Iush3party)[Chitraksh-20](https://github.com/Chitraksh-20)
+* Github: [@Iush3party](https://github.com/Iush3party) [Chitraksh-20](https://github.com/Chitraksh-20)
 * LinkedIn: [@https:\/\/www.linkedin.com\/in\/ayush-tripathi-aaa58a231\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/ayush-tripathi-aaa58a231\/)
 
 ## Show your support
@@ -33,7 +33,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2023 [Ayush Tripathi](https://github.com/Iush3party)[Chitraksh Dhingra](https://github.com/Chitraksh-20)
+Copyright © 2023 [Ayush Tripathi](https://github.com/Iush3party) [Chitraksh Dhingra](https://github.com/Chitraksh-20)
 This project is [All license to team #include<team.h>](NA) licensed.
 
 ***
