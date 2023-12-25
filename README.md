@@ -33,7 +33,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2023 [Ayush Tripathi | Vardhan Gacche | Chitraksha Dhingra | Hardik Singh](https://github.com/Iush3party).<br />
+Copyright © 2023 [Ayush Tripathi | Vardhan Gacche | Chitraksha Dhingra | Hardik Singh](https://github.com/Iush3party).<br /> (https://github.com/Chitraksh-20)
 This project is [All license to team #include<team.h>](NA) licensed.
 
 ***
